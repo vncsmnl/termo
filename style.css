@@ -33,6 +33,7 @@ hr {
     margin: 2.5px;
     border-radius: 15px;
     background-color: #615458;
+    align-items: center;
 
     /* Text */
     color: white;
@@ -129,4 +130,17 @@ footer {
     text-align: center;
     margin-bottom: 5px;
     font-size: 12px;
+}
+
+@media (max-width: 600px) {
+    body {
+        font-family: 'Fredoka', sans-serif;
+        text-align: center;
+        background-color: #6e5c62;
+        color: white;
+        position: fixed;
+        width: 100vw;
+        height: 100vw;
+        max-width: 100%;
+    }
 }
