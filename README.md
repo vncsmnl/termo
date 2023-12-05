@@ -19,7 +19,7 @@ Não são necessários pré-requisitos específicos. Você apenas precisa de um 
 1. Clone o repositório em sua máquina local.
 
    ```bash
-   git clone https://github.com/seu-nome-de-usuario/wordle-clone.git
+   git clone https://github.com/vncsmnl/termo.git
    ```
 
 2. Abra o diretório do projeto.
