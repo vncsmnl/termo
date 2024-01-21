@@ -10,7 +10,7 @@ var wordList; // Lista de palavras a ser obtida do Gist
 var word = ""; // Palavra atual a ser adivinhada
 
 // URL raw do Gist com a lista de palavras
-var GIST_URL = 'https://gist.githubusercontent.com/vncsmnl/25e7c165da276405af8ca4e1c8e17806/raw/3e5f09a25ce411e02871e1c6fb54261341b2f3d0/wordlist';
+var GIST_URL = 'https://gist.githubusercontent.com/vncsmnl/25e7c165da276405af8ca4e1c8e17806/raw/bd238615c9089721a16418289589961490d0cf65/wordlist';
 
 window.onload = function () {
     carregarListaPalavras(GIST_URL)
@@ -161,7 +161,7 @@ function processInput(e) {
         if (validarPalavra(guess)) {
             update();
         } else {
-            // TODO: Adicionar aqui uma lógica mais interessante para ligar com essa validação!
+            // TODO: Adicionar aqui uma lógica mais interessante para lidar com essa validação!
             alert('Palavra inválida!');
         }
     }
