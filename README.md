@@ -1,6 +1,6 @@
-# Term.ooo Clone
+# Wordle | Term.ooo Clone
 
-Bem-vindo ao Term.ooo Clone, um jogo simples e divertido de adivinhação de palavras inspirado no popular jogo online Wordle. Este projeto foi desenvolvido utilizando HTML, CSS e JavaScript para criar uma versão leve e acessível do clássico jogo.
+Bem-vindo ao Wordle | Term.ooo Clone, um jogo simples e divertido de adivinhação de palavras inspirado no popular jogo online Wordle. Este projeto foi desenvolvido utilizando HTML, CSS e JavaScript para criar uma versão leve e acessível do clássico jogo.
 
 ## Screenshots
 
@@ -9,6 +9,8 @@ Bem-vindo ao Term.ooo Clone, um jogo simples e divertido de adivinhação de pal
 ## Início Rápido
 
 Siga estas instruções para obter uma cópia do projeto e executá-lo em sua máquina local para fins de desenvolvimento e teste.
+
+https://vinicius.is-a.dev/wordle
 
 ### Pré-requisitos
 
@@ -61,7 +63,23 @@ Sinta-se à vontade para contribuir para o projeto seguindo estes passos:
 
 ## Licença
 
-Este projeto está licenciado sob a Licença MIT - consulte o arquivo [LICENSE](LICENSE) para obter mais detalhes.
+[![License](https://img.shields.io/github/license/vncsmnl/wordle?style=flat&logo=github&color=blue)](https://github.com/vncsmnl/wordle/blob/main/LICENSE)
+
+```
+            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+                    Version 2, December 2004
+
+ Copyright (C) 2004 Sam Hocevar <sam@hocevar.net>
+
+ Everyone is permitted to copy and distribute verbatim or modified
+ copies of this license document, and changing it is allowed as long
+ as the name is changed.
+
+            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+
+  0. You just DO WHAT THE FUCK YOU WANT TO.
+```
 
 <a href="#top">🔝 Volte para o topo</a>
 
