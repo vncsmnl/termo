@@ -164,12 +164,14 @@ class WordleGame {
     handleKeyPress(event) {
         if (this.state.gameOver) return;
 
-        if (event.key === 'Enter') {
+        const key = event.key || event.target?.dataset?.key;
+
+        if (key === 'Enter' || key === 'ENTER') {
             this.submitGuess();
-        } else if (event.key === 'Backspace') {
+        } else if (key === 'Backspace' || key === 'BACKSPACE') {
             this.deleteLetter();
-        } else if (/^[A-Za-zÇç]$/.test(event.key)) {
-            this.addLetter(event.key.toUpperCase());
+        } else if (/^[A-Za-zÇç]$/.test(key)) {
+            this.addLetter(key.toUpperCase());
         }
     }
 
